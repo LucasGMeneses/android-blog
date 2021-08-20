@@ -9,4 +9,4 @@ Site estático sobre a história do Android.
 - [ ] Criar o estilo css.
 
 ## 🌐 Referência
-* [Curso em Video](https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ)
+* [Curso em Video](https://www.youtube.com/watch?v=YB9c1Zg_Ln4&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=32)
