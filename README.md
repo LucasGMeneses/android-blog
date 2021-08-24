@@ -4,7 +4,7 @@ Site estático sobre a história do Android.
 
 ## 🎯 Metas
 
-- [ ] Criar prototipo.
+- [X] Criar prototipo.
 - [ ] Estruturar arquivo html.
 - [ ] Criar o estilo css.
 
