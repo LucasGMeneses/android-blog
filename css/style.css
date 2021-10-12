@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Actor&display=swap');
+:root{
+    --primary-color: #3DDC84;
+    --secondary-color: #4285F4;
+    --ternary-color: #073042;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Acme', 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/menu-img.jpg) center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+}
+
+
+body {
+    font-family: 'Actor', sans-serif;
+    color: var(--ternary-color);
+    text-align: justify;
+    background-color: #d8e4f8;
+    width: 100%;
+}
+a {
+    text-align: center;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+main{
+    background-color: #fff;
+    max-width: 900px;
+    padding: 2em 1em;
+    margin: 0 auto;
+}
+
+p{
+    margin: 1em auto;
+}
+
+img,iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2em;
+    color: var(--primary-color);
+}
+
+header p{
+    margin: 0.5em auto;
+}
+nav {
+    margin-top: 1em;
+}
+nav ul{  
+    display: flex;
+    list-style: none;
+}
+ul li{
+    margin: auto .5em;
+}
+ul a {
+    text-decoration: none;
+    color: #fff;
+}
+ul a:hover{
+    color: var(--primary-color);
+}
+
+.box-versions{
+    padding: 0.6em;
+    list-style: none;
+    display: block;
+    justify-content: center;
+}
+
+aside {
+    padding-top: 1em;
+    text-align: justify;
+}
+
+@media screen and (max-width:500px){
+    nav ul{
+        display: block;
+    }
+
+}
+
